@@ -1,0 +1,17 @@
+name = Open Charity
+description = Custom theme for Open Charity
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/common.css
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+scripts[] = js/custom.js
+
+features[] = name
+features[] = main_menu

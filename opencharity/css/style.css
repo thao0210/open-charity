@@ -1,0 +1,344 @@
+/* ---- Page layout ---- */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #575656; }
+
+#wrapper, #header, #footer {
+  clear: both; }
+
+.main-content {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  position: relative; }
+
+/*--------------Header----------------*/
+#header {
+  font-family: "Open Sans", sans-serif; }
+  #header a.logo {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 20px; }
+  #header ul#main-menu {
+    text-align: right;
+    font-family: "Museo Sans", "Open Sans", sans-serif; }
+    #header ul#main-menu li {
+      display: inline-block;
+      margin-left: 20px; }
+      #header ul#main-menu li a {
+        display: inline-block;
+        color: #575656;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 38px; }
+        #header ul#main-menu li a:hover {
+          text-decoration: none; }
+      #header ul#main-menu li:last-child a {
+        color: #61c0bd;
+        border: #61c0bd solid 1px;
+        padding: 0 25px; }
+
+/*--------------Wrapper----------------*/
+#wrapper {
+  background: #f2f2f2; }
+
+#GetInvolved, #OurMission, #OurMembers, #Blog {
+  max-width: 1262px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+#TopBanner {
+  min-height: 270px;
+  overflow: hidden;
+  position: relative; }
+  #TopBanner img {
+    width: 100% !important;
+    position: absolute;
+    z-index: 1; }
+  #TopBanner .banner-information {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center; }
+    #TopBanner .banner-information h1 {
+      font-size: 55px;
+      font-weight: 500;
+      font-family: "Museo Sans", "Open Sans", sans-serif;
+      max-width: 1000px;
+      margin: 0 auto; }
+    #TopBanner .banner-information p {
+      line-height: 25px;
+      max-width: 800px;
+      margin: 0 auto; }
+
+#NewEvent {
+  padding: 25px;
+  overflow: hidden; }
+  #NewEvent .event-content {
+    max-width: 1262px;
+    margin: 0 auto; }
+    #NewEvent .event-content .next-event {
+      font-family: "Museo Sans", "Open Sans", sans-serif;
+      margin-bottom: 10px; }
+      #NewEvent .event-content .next-event span {
+        color: #61c0bd; }
+
+.block h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1262px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Museo Sans", "Open Sans", sans-serif; }
+
+#block-block-2 {
+  background: white;
+  overflow: hidden;
+  padding-bottom: 30px; }
+  #block-block-2 img {
+    height: 100px; }
+  #block-block-2 h4 {
+    text-transform: uppercase;
+    margin-top: 20px; }
+  #block-block-2 p {
+    width: 80%;
+    margin: 0 auto 20px; }
+
+#block-user-login {
+  width: 250px;
+  margin: 0 auto; }
+  #block-user-login h2 {
+    font-size: 26px; }
+
+#OurMission {
+  padding-bottom: 50px;
+  border-bottom: #d9dadd solid 1px; }
+  #OurMission p.mission-content {
+    max-width: 800px;
+    margin: 0 auto 100px;
+    text-align: center; }
+  #OurMission .item-content {
+    background: white;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 20px 30px; }
+    #OurMission .item-content .top-icon {
+      width: 100%;
+      position: absolute;
+      top: -50px;
+      left: 0;
+      height: 90px;
+      text-align: center; }
+      #OurMission .item-content .top-icon span {
+        display: inline-block;
+        width: 85px;
+        height: 85px;
+        line-height: 110px;
+        background: #61c0bd;
+        border: white 10px solid;
+        border-radius: 50%; }
+    #OurMission .item-content h5 {
+      color: #61c0bd; }
+
+#OurMembers .members {
+  display: table;
+  width: 100%; }
+#OurMembers a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+  width: 20%;
+  text-align: center; }
+
+#block-system-main {
+  background: white;
+  padding-bottom: 40px;
+  overflow: hidden; }
+  #block-system-main .node h2 {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    border-bottom: #d9dadd solid 1px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: left; }
+  #block-system-main .node ul.links, #block-system-main .node .submitted {
+    display: none; }
+  #block-system-main .node .content {
+    width: 80%;
+    margin: 10px auto;
+    text-align: left; }
+  #block-system-main > .content {
+    max-width: 1262px;
+    margin: 0 auto; }
+
+/*--------------Footer----------------*/
+#footer {
+  background: #45484d;
+  color: #979eb1;
+  padding: 10px;
+  text-align: center; }
+  #footer #FooterLinks .social-links {
+    border-bottom: #585b61 solid 1px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px; }
+    #footer #FooterLinks .social-links a {
+      padding: 0 10px; }
+  #footer #FooterLinks .bottom-content {
+    height: 60px;
+    line-height: 60px; }
+
+/*________________________________Login page and Content Page__________________________________*/
+.not-front #wrapper {
+  overflow: hidden; }
+  .not-front #wrapper > #content {
+    max-width: 1262px;
+    margin: 0 auto; }
+    .not-front #wrapper > #content > h1 {
+      font-size: 20px;
+      margin: 20px 0 0;
+      text-align: center; }
+  .not-front #wrapper .region #block-system-main {
+    padding: 20px; }
+    .not-front #wrapper .region #block-system-main > h2 {
+      display: none; }
+  .not-front #wrapper ul.primary {
+    margin-bottom: 0;
+    border: none; }
+    .not-front #wrapper ul.primary li {
+      line-height: 30px;
+      display: inline-block; }
+      .not-front #wrapper ul.primary li a {
+        border: none;
+        background: none;
+        display: inline-block; }
+      .not-front #wrapper ul.primary li a.active {
+        background: white; }
+  .not-front #wrapper label {
+    line-height: 25px; }
+  .not-front #wrapper input[type="text"], .not-front #wrapper input[type="password"] {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: #ccc solid 1px; }
+  .not-front #wrapper input[type="submit"] {
+    background: #61c0bd;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 30px;
+    border: none;
+    text-transform: uppercase; }
+
+/*_______________________________________ Screens _________________________________________*/
+/*----------------Mobile view -----------------*/
+@media screen and (max-width: 767px) {
+  .main-content {
+    padding: 20px; }
+
+  .mobile-menu {
+    display: block;
+    float: right; }
+    .mobile-menu i {
+      cursor: pointer;
+      font-size: 25px;
+      margin-top: 10px; }
+    .mobile-menu input {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+      height: 30px;
+      width: 30px;
+      opacity: 0; }
+    .mobile-menu input + #main-menu-mobile {
+      display: none; }
+    .mobile-menu input:checked + #main-menu-mobile {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      z-index: 1000;
+      background: #e2e2e2;
+      width: 100%; }
+    .mobile-menu #main-menu-mobile li {
+      line-height: 30px; }
+      .mobile-menu #main-menu-mobile li a {
+        display: block;
+        cursor: pointer;
+        padding: 0 10px;
+        color: #5b6172; }
+        .mobile-menu #main-menu-mobile li a:hover {
+          background: #444; }
+
+  #main-menu {
+    display: none; }
+
+  #TopBanner {
+    background-color: #262626;
+    height: auto; }
+    #TopBanner .banner-information {
+      margin: 10px 0; }
+      #TopBanner .banner-information h1 {
+        font-size: 20px; }
+      #TopBanner .banner-information p {
+        padding: 0 10px;
+        line-height: 18px; }
+        #TopBanner .banner-information p .font-17 {
+          font-size: 15px; }
+
+  .col-total-3, .col-total-4, .col-total-5, .node-article {
+    width: 100%;
+    margin-bottom: 40px; }
+
+  .col-total-3:last-child {
+    margin-bottom: 0px; }
+
+  .event-content .float-left, .event-content .float-right {
+    float: none;
+    margin-bottom: 30px; }
+
+  #OurMission p.mission-content {
+    padding: 10px; }
+
+  #OurMission .item-content {
+    margin-bottom: 30px; }
+
+  #OurMembers {
+    display: block; }
+    #OurMembers a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      height: auto;
+      margin-bottom: 40px; }
+
+  input[type="text"], input[type="password"] {
+    width: 80%; } }
+/*----------------Tablet and Desktop view -----------------*/
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none; }
+
+  #main-menu {
+    display: block; } }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #TopBanner {
+    height: 310px; }
+    #TopBanner .banner-information {
+      margin: 20px 0; }
+      #TopBanner .banner-information h1 {
+        font-size: 25px; }
+
+  #block-block-2 p, #OurMission .item-content p {
+    height: 60px; } }
+@media screen and (min-width: 1200px) {
+  #TopBanner {
+    height: 457px; } }
+
+/*# sourceMappingURL=style.css.map */
